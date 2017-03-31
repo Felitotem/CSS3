@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+body{
+  background:grey;
+  margin:auto;
+}
+.parallax-1 {
+   background-image: url(http://i.artfile.ru/2560x1703_609390_[www.ArtFile.ru].jpg);
+ }
+.contenedor__logo{
+  display:flex;
+  margin:0px;
+  background-size:cover;
+  min-height:700px;
+}
+h1{
+  font-family: 'Great Vibes', cursive;
+  color:black;
+  margin:auto;
+  font-size:100px;
+  position:relative;
+  top:20px;
+}
+h2{
+  font-family: 'Great Vibes', cursive;
+  color:black;
+  margin:auto;
+  width:230px;
+  font-size:30px;
+  position:relative;
+  top:10px;
+}
+.conimg{
+  position:relative;
+  left:30px;
+  top:10px;
+}
+.tipical__info{
+  margin:20px;
+}
