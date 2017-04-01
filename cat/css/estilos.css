@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+body{
+  background:grey;
+  margin:auto;
+}
+.jarallax{
+  background-size: cover;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+.parallax-1 {
+  height:400px;
+   background-image: url(http://i.artfile.ru/2560x1703_609390_[www.ArtFile.ru].jpg);
+  display:flex;
+  justify-content:space-between;
+ }
+.parallax-2{
+  background-image:url(http://i.artfile.ru/2560x1703_609390_[www.ArtFile.ru].jpg);
+  color:white;
+  text-shadow:0px 0px 7px black;
+}
+
+.porqueguapos{
+  font-size:35px;
+  width:150px;
+  font-family: 'Great Vibes', cursive;
+  position:relative;
+  right:80px;
+  top:80px;
+  text-align:center;
+}
+.contenedor__logo{
+  display:flex;
+  margin:0px;
+  background-size:cover;
+  min-height:700px;
+}
+h1{
+  font-family: 'Great Vibes', cursive;
+  color:black;
+  margin:auto;
+  font-size:100px;
+  position:relative;
+  top:20px;
+}
+h2{
+  font-family: 'Great Vibes', cursive;
+  color:black;
+  margin:auto;
+  width:230px;
+  font-size:30px;
+  position:relative;
+  top:10px;
+}
+.conimg{
+  position:relative;
+  left:30px;
+  top:10px;
+}
+.tipical__info{
+  margin:20px;
+}
+
+/*Hadhesive*/
+
+body {
+   margin: 0;
+   font-size: 48px;
+ }
+#headcont li{
+  display:inline;
+  position:relative;
+  top:1px;
+  height:0px;
+  font-size:20px;
+}
+div header nav ul{
+  display:flex;
+  justify-content:space-around;
+ position:relative;
+  top:0px;
+}
+ .button{
+  width:320px;
+}
+.centrado{
+  padding:50px;
+}
+ .header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   width: 100%;
+   background:#ced6db;
+   color: #FFF;
+   text-align: center;
+ }
+.header {
+   transform: translateY(-100%);
+   transition: all 300ms ease-in-out;
+ }
+
+
+ .header--stick {
+   transform: translateY(-55%);
+ }
+
+
+ .header--unstick {
+ }
